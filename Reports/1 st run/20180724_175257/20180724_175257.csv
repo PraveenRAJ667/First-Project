@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+1 st run,,,2018-07-24 17:52:59,2018-07-24 17:53:07,8.269s,FAILED
+,,,,,,
+Test Cases/LoginPage,,,2018-07-24 17:53:00,2018-07-24 17:53:04,4.724s,FAILED
+openBrowser,,,2018-07-24 17:53:00,2018-07-24 17:53:04,4.195s,FAILED
+,,,,,,
+Test Cases/Homepage,,,2018-07-24 17:53:04,2018-07-24 17:53:07,2.449s,FAILED
+openBrowser,,,2018-07-24 17:53:05,2018-07-24 17:53:07,2.262s,FAILED

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1 st run" time="95" tests="0" failures="2" errors="0">
+   <testsuite name="1 st run" tests="0" failures="2" errors="0" time="95" timestamp="2018-07-24 17:52:59" hostname="slk - WSLK1FFTRFW-15.SLKSOFT.COM" id="Test Suites/1 st run">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\slk.WSLK1FFTRFW-15.004\\Katalon Studio\\OrangeHRM\\Reports\\1 st run\\20180724_175256"/>
+         <property name="logFiles" value="C:\\Users\\slk.WSLK1FFTRFW-15.004\\Katalon Studio\\OrangeHRM\\Reports\\1 st run\\20180724_175256\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\slk.WSLK1FFTRFW-15.004\\Katalon Studio\\OrangeHRM\\Reports\\1 st run\\20180724_175256\\1532435023456.png, C:\\Users\\slk.WSLK1FFTRFW-15.004\\Katalon Studio\\OrangeHRM\\Reports\\1 st run\\20180724_175256\\1532435074143.png"/>
+         <property name="hostName" value="slk - WSLK1FFTRFW-15.SLKSOFT.COM"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.41.7.77"/>
+         <property name="sessionId" value="dffd48acce18de36345c377cc67f0164"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/LoginPage" classname="Test Cases/LoginPage" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_OrangeHRM/a_Welcome Admin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/a_Welcome Admin' located by 'By.xpath: //a[@href = '#' and @id = 'welcome' and (text() = 'Welcome Admin' or . = 'Welcome Admin')]' not found)"/>
+         <system-out><![CDATA[2018-07-24 17:53:00 - [TEST_CASE][FAILED] - Test Cases/LoginPage: Test Cases/LoginPage FAILED because (of) Unable to click on object 'Object Repository/Page_OrangeHRM/a_Welcome Admin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/a_Welcome Admin' located by 'By.xpath: //a[@href = '#' and @id = 'welcome' and (text() = 'Welcome Admin' or . = 'Welcome Admin')]' not found)
+
+2018-07-24 17:53:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-24 17:53:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-24 17:53:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-07-24 17:53:09 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-07-24 17:53:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2018-07-24 17:53:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2018-07-24 17:53:10 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2018-07-24 17:53:10 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2018-07-24 17:53:10 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2018-07-24 17:53:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2018-07-24 17:53:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/input_Submit' is clicked on
+
+2018-07-24 17:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Submit' is clicked on
+
+2018-07-24 17:53:12 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_OrangeHRM/a_Welcome Admin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/a_Welcome Admin' located by 'By.xpath: //a[@href = '#' and @id = 'welcome' and (text() = 'Welcome Admin' or . = 'Welcome Admin')]' not found)
+
+2018-07-24 17:53:43 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_OrangeHRM/a_Welcome Admin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/a_Welcome Admin' located by 'By.xpath: //a[@href = '#' and @id = 'welcome' and (text() = 'Welcome Admin' or . = 'Welcome Admin')]' not found)
+[[ATTACHMENT|C:\\Users\\slk.WSLK1FFTRFW-15.004\\Katalon Studio\\OrangeHRM\\Reports\\1 st run\\20180724_175256\\1532435023456.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-24 17:53:00 - [TEST_CASE][FAILED] - Test Cases/LoginPage: Test Cases/LoginPage FAILED because (of) Unable to click on object 'Object Repository/Page_OrangeHRM/a_Welcome Admin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/a_Welcome Admin' located by 'By.xpath: //a[@href = '#' and @id = 'welcome' and (text() = 'Welcome Admin' or . = 'Welcome Admin')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Homepage" classname="Test Cases/Homepage" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_OrangeHRM/a_Welcome Admin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/a_Welcome Admin' located by 'By.xpath: //a[@href = '#' and @id = 'welcome' and (text() = 'Welcome Admin' or . = 'Welcome Admin')]' not found)"/>
+         <system-out><![CDATA[2018-07-24 17:53:43 - [TEST_CASE][FAILED] - Test Cases/Homepage: Test Cases/Homepage FAILED because (of) Unable to click on object 'Object Repository/Page_OrangeHRM/a_Welcome Admin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/a_Welcome Admin' located by 'By.xpath: //a[@href = '#' and @id = 'welcome' and (text() = 'Welcome Admin' or . = 'Welcome Admin')]' not found)
+
+2018-07-24 17:53:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-24 17:53:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-24 17:53:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-24 17:53:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-07-24 17:53:51 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-07-24 17:53:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Homepage/Page_OrangeHRM/span_Username' is clicked on
+
+2018-07-24 17:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Homepage/Page_OrangeHRM/span_Username' is clicked on
+
+2018-07-24 17:53:51 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/LoginPage' (Root cause: Call Test Case 'Test Cases/LoginPage' failed)
+
+2018-07-24 17:53:51 - [TEST_CASE][FAILED] - Test Cases/LoginPage: Test Cases/LoginPage FAILED because (of) Unable to click on object 'Object Repository/Page_OrangeHRM/a_Welcome Admin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/a_Welcome Admin' located by 'By.xpath: //a[@href = '#' and @id = 'welcome' and (text() = 'Welcome Admin' or . = 'Welcome Admin')]' not found)
+
+2018-07-24 17:53:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-24 17:53:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-24 17:53:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-24 17:53:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-07-24 17:54:00 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-07-24 17:54:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2018-07-24 17:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/span_Username' is clicked on
+
+2018-07-24 17:54:00 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2018-07-24 17:54:01 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_txtUsername'
+
+2018-07-24 17:54:01 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2018-07-24 17:54:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_txtPassword'
+
+2018-07-24 17:54:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/input_Submit' is clicked on
+
+2018-07-24 17:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Submit' is clicked on
+
+2018-07-24 17:54:03 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_OrangeHRM/a_Welcome Admin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/a_Welcome Admin' located by 'By.xpath: //a[@href = '#' and @id = 'welcome' and (text() = 'Welcome Admin' or . = 'Welcome Admin')]' not found)
+
+2018-07-24 17:54:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_OrangeHRM/a_Welcome Admin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/a_Welcome Admin' located by 'By.xpath: //a[@href = '#' and @id = 'welcome' and (text() = 'Welcome Admin' or . = 'Welcome Admin')]' not found)
+[[ATTACHMENT|C:\\Users\\slk.WSLK1FFTRFW-15.004\\Katalon Studio\\OrangeHRM\\Reports\\1 st run\\20180724_175256\\1532435074143.png]]
+
+2018-07-24 17:54:34 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/LoginPage' (Root cause: Call Test Case 'Test Cases/LoginPage' failed)]]></system-out>
+         <system-err><![CDATA[2018-07-24 17:53:43 - [TEST_CASE][FAILED] - Test Cases/Homepage: Test Cases/Homepage FAILED because (of) Unable to click on object 'Object Repository/Page_OrangeHRM/a_Welcome Admin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/a_Welcome Admin' located by 'By.xpath: //a[@href = '#' and @id = 'welcome' and (text() = 'Welcome Admin' or . = 'Welcome Admin')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-24 17:52:59 - [TEST_SUITE][FAILED] - 1 st run: Test Cases/LoginPage FAILED because (of) Unable to click on object 'Object Repository/Page_OrangeHRM/a_Welcome Admin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/a_Welcome Admin' located by 'By.xpath: //a[@href = '#' and @id = 'welcome' and (text() = 'Welcome Admin' or . = 'Welcome Admin')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-24 17:52:59 - [TEST_SUITE][FAILED] - 1 st run: Test Cases/LoginPage FAILED because (of) Unable to click on object 'Object Repository/Page_OrangeHRM/a_Welcome Admin' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/a_Welcome Admin' located by 'By.xpath: //a[@href = '#' and @id = 'welcome' and (text() = 'Welcome Admin' or . = 'Welcome Admin')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

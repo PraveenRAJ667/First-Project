@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1 st run" time="2" tests="0" failures="2" errors="0">
+   <testsuite name="1 st run" tests="0" failures="2" errors="0" time="2" timestamp="2018-07-24 15:21:49" hostname="slk - WSLK1FFTRFW-15.SLKSOFT.COM" id="Test Suites/1 st run">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\slk.WSLK1FFTRFW-15.004\\Katalon Studio\\OrangeHRM\\Reports\\1 st run\\20180724_152145"/>
+         <property name="logFiles" value="C:\\Users\\slk.WSLK1FFTRFW-15.004\\Katalon Studio\\OrangeHRM\\Reports\\1 st run\\20180724_152145\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="slk - WSLK1FFTRFW-15.SLKSOFT.COM"/>
+         <property name="hostAddress" value="10.41.7.77"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+      </properties>
+      <testcase name="Test Cases/LoginPage" classname="Test Cases/LoginPage" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to 'https://opensource-demo.orangehrmlive.com/' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WSLK1FFTRFW-15', ip: '10.41.7.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-24 15:21:50 - [TEST_CASE][FAILED] - Test Cases/LoginPage: Test Cases/LoginPage FAILED because (of) Unable to navigate to 'https://opensource-demo.orangehrmlive.com/' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WSLK1FFTRFW-15', ip: '10.41.7.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-24 15:21:51 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'https://opensource-demo.orangehrmlive.com/' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WSLK1FFTRFW-15', ip: '10.41.7.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-24 15:21:52 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-24 15:21:52 - [MESSAGE][FAILED] - Unable to navigate to 'https://opensource-demo.orangehrmlive.com/' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WSLK1FFTRFW-15', ip: '10.41.7.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-07-24 15:21:50 - [TEST_CASE][FAILED] - Test Cases/LoginPage: Test Cases/LoginPage FAILED because (of) Unable to navigate to 'https://opensource-demo.orangehrmlive.com/' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WSLK1FFTRFW-15', ip: '10.41.7.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Homepage" classname="Test Cases/Homepage" status="FAILED">
+         <failure type="FAILED" message="Unable to navigate to 'https://opensource-demo.orangehrmlive.com/' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WSLK1FFTRFW-15', ip: '10.41.7.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-07-24 15:21:52 - [TEST_CASE][FAILED] - Test Cases/Homepage: Test Cases/Homepage FAILED because (of) Unable to navigate to 'https://opensource-demo.orangehrmlive.com/' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WSLK1FFTRFW-15', ip: '10.41.7.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-24 15:21:52 - [TEST_STEP][FAILED] - navigateToUrl: Unable to navigate to 'https://opensource-demo.orangehrmlive.com/' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WSLK1FFTRFW-15', ip: '10.41.7.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-07-24 15:21:52 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-07-24 15:21:52 - [MESSAGE][FAILED] - Unable to navigate to 'https://opensource-demo.orangehrmlive.com/' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WSLK1FFTRFW-15', ip: '10.41.7.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-07-24 15:21:52 - [TEST_CASE][FAILED] - Test Cases/Homepage: Test Cases/Homepage FAILED because (of) Unable to navigate to 'https://opensource-demo.orangehrmlive.com/' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WSLK1FFTRFW-15', ip: '10.41.7.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-24 15:21:49 - [TEST_SUITE][FAILED] - 1 st run: Test Cases/LoginPage FAILED because (of) Unable to navigate to 'https://opensource-demo.orangehrmlive.com/' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WSLK1FFTRFW-15', ip: '10.41.7.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-07-24 15:21:49 - [TEST_SUITE][FAILED] - 1 st run: Test Cases/LoginPage FAILED because (of) Unable to navigate to 'https://opensource-demo.orangehrmlive.com/' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WSLK1FFTRFW-15', ip: '10.41.7.77', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>
